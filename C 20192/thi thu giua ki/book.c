@@ -72,7 +72,8 @@ book findById(BookDB db, char *id){
 	return NULL;
 }
 
-void switch4(BookDB db, char *id1, char *id2){
+void switch4(BookDB db, char *id1, char *id2){ 
+	//tao con me 2 sach moi tu du lieu 2 sach cu roi dat chung no vao vi tri cua 2 sach cu
 	book prevb1= findById(db, id1);
 	book prevb2= findById(db, id2);
 	book b1= prevb1->next;
